@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tut</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="year_array">
+        <item>B.TECH First Year</item>
+        <item>B.TECH Second Year</item>
+        <item>B.TECH Third Year</item>
+        <item>B.TECH Final Year</item>
+        <item>MCA FIRST YEAR</item>
+        <item>MCA SECOND YEAR</item>
+        <item>MCA THIRD YEAR</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_btech1year_home">Btech1yearHome</string>
+    <string name="title_activity_btech2year_home">Btech2yearHome</string>
+    <string name="title_activity_btech3year_home">Btech3yearHome</string>
+    <string name="title_activity_btech4year_home">Btech4yearHome</string>
+    <string name="title_activity_mca1year">Mca1year</string>
+    <string name="title_activity_mca2year">Mca2year</string>
+    <string name="title_activity_mca3year">Mca3year</string>
+    <string name="title_activity_a1">A1Activity</string>
+    <string name="title_activity_a2">A2Activity</string>
+    <string name="title_activity_b1">B1Activity</string>
+    <string name="title_activity_b2">B2Activity</string>
+    <string name="title_activity_c1">C1Activity</string>
+    <string name="title_activity_c2">C2Activity</string>
+    <string name="title_activity_d1">D1Activity</string>
+    <string name="title_activity_d2">D2Activity</string>
+    <string name="title_activity_e1">E1Activity</string>
+    <string name="title_activity_e2">E2Activity</string>
+    <string name="title_activity_f1">F1Activity</string>
+    <string name="title_activity_f2">F2Activity</string>
+    <string name="title_activity_g1">G1Activity</string>
+    <string name="title_activity_g2">G2Activity</string>
+    <string name="title_activity_h1">H1Activity</string>
+    <string name="title_activity_h2">H2Activity</string>
+    <string name="title_activity_i1">I1Activity</string>
+    <string name="title_activity_i2">I2Activity</string>
+    <string name="title_activity_j1">J1Activity</string>
+    <string name="title_activity_j2">J2Activity</string>
+    <string name="title_activity_k1">K1Activity</string>
+    <string name="title_activity_k2">K2Activity</string>
+    <string name="title_activity_l1">L1Activity</string>
+    <string name="title_activity_l2">L2Activity</string>
+    <string name="title_activity_radio">RadioActivity</string>
+    <string name="title_activity_rad">RadActivity</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home">Home</string>
+
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tut"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tut.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.tut.Btech1yearHome"
+            android:label="@string/title_activity_btech1year_home" >
+        </activity>
+        <activity
+            android:name="com.example.tut.Btech2yearHome"
+            android:label="@string/title_activity_btech2year_home" >
+        </activity>
+        <activity
+            android:name="com.example.tut.Btech3yearHome"
+            android:label="@string/title_activity_btech3year_home" >
+        </activity>
+        <activity
+            android:name="com.example.tut.Btech4yearHome"
+            android:label="@string/title_activity_btech4year_home" >
+        </activity>
+        <activity
+            android:name="com.example.tut.Mca1year"
+            android:label="@string/title_activity_mca1year" >
+        </activity>
+        <activity
+            android:name="com.example.tut.Mca2year"
+            android:label="@string/title_activity_mca2year" >
+        </activity>
+        <activity
+            android:name="com.example.tut.Mca3year"
+            android:label="@string/title_activity_mca3year" >
+        </activity>
+        <activity
+            android:name="com.example.tut.A1Activity"
+            android:label="@string/title_activity_a1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.A2Activity"
+            android:label="@string/title_activity_a2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.B1Activity"
+            android:label="@string/title_activity_b1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.B2Activity"
+            android:label="@string/title_activity_b2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.C1Activity"
+            android:label="@string/title_activity_c1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.C2Activity"
+            android:label="@string/title_activity_c2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.D1Activity"
+            android:label="@string/title_activity_d1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.D2Activity"
+            android:label="@string/title_activity_d2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.E1Activity"
+            android:label="@string/title_activity_e1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.E2Activity"
+            android:label="@string/title_activity_e2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.F1Activity"
+            android:label="@string/title_activity_f1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.F2Activity"
+            android:label="@string/title_activity_f2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.G1Activity"
+            android:label="@string/title_activity_g1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.G2Activity"
+            android:label="@string/title_activity_g2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.H1Activity"
+            android:label="@string/title_activity_h1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.H2Activity"
+            android:label="@string/title_activity_h2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.I1Activity"
+            android:label="@string/title_activity_i1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.I2Activity"
+            android:label="@string/title_activity_i2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.J1Activity"
+            android:label="@string/title_activity_j1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.J2Activity"
+            android:label="@string/title_activity_j2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.K1Activity"
+            android:label="@string/title_activity_k1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.K2Activity"
+            android:label="@string/title_activity_k2" >
+        </activity>
+        <activity
+            android:name="com.example.tut.L1Activity"
+            android:label="@string/title_activity_l1" >
+        </activity>
+        <activity
+            android:name="com.example.tut.L2Activity"
+            android:label="@string/title_activity_l2" >
+        </activity>
+      
+     
+        <activity
+            android:name="com.example.tut.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+             >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

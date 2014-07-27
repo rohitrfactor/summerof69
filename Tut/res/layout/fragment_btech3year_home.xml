@@ -1,0 +1,481 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/acad"
+    tools:context="com.example.tut.MainActivity$PlaceholderFragment" >
+
+  <ScrollView 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" > 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:text="Computer Engg."
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+             />
+        
+        <HorizontalScrollView
+            android:id="@+id/id1_3y"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp" >
+"
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageButton1_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="CO-1" />
+
+                <Button
+                    android:id="@+id/imageButton2_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="CO-2"
+                    />
+
+                <Button
+                    android:id="@+id/imageButton3_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="CO-3" />
+
+                <Button
+                    android:id="@+id/imageButton4_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="CO-4" />
+
+                <Button
+                    android:id="@+id/imageButton5_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="CO-5" />
+
+                <Button
+                    android:id="@+id/imageButton6_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="CO-6" />
+                
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:text="Information Technology"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+             />
+        
+        <HorizontalScrollView
+            android:id="@+id/id2_3y"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp" >
+"
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageButton1_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IT-1" />
+
+                <Button
+                    android:id="@+id/imageButton2_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IT-2"
+                    />
+
+                <Button
+                    android:id="@+id/imageButton3_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IT-3" />
+
+                <Button
+                    android:id="@+id/imageButton4_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IT-4" />
+
+                <Button
+                    android:id="@+id/imageButton5_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IT-5" />
+
+                <Button
+                    android:id="@+id/imageButton6_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IT-6" />
+                
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Electronics Engg." />
+        <HorizontalScrollView
+            android:id="@+id/id3_3y"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+             >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageButton1_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="EC-1" />
+
+                <Button
+                    android:id="@+id/imageButton2_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="EC-2"/>
+
+                <Button
+                    android:id="@+id/imageButton3_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="EC-3" />
+
+                <Button
+                    android:id="@+id/imageButton4_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="EC-4" />
+
+                <Button
+                    android:id="@+id/imageButton5_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="EC-5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6_3y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="EC-6" />
+
+                <Button
+                    android:id="@+id/imageButton7_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="EC-7" />
+
+                <Button
+                    android:id="@+id/imageButton8_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="EC-8" />
+
+                
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:textSize="35dp"
+           android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:text="Civil Engg." />
+        <HorizontalScrollView
+            android:id="@+id/id4_3y"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                 <Button
+                    android:id="@+id/imageButton1_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="C-1" />
+
+                <Button
+                    android:id="@+id/imageButton2_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="C-2"/>
+
+                <Button
+                    android:id="@+id/imageButton3_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="C-3" />
+
+                <Button
+                    android:id="@+id/imageButton4_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="C-4" />
+
+                <Button
+                    android:id="@+id/imageButton5_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="C-5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6_3y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="C-6" />
+
+                <Button
+                    android:id="@+id/imageButton7_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="C-7" />
+
+                <Button
+                    android:id="@+id/imageButton8_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="C-8" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:textSize="35dp"
+           android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:text="Mechanical Engg." />
+        <HorizontalScrollView
+            android:id="@+id/id5_3y"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                 <Button
+                    android:id="@+id/imageButton1_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="M-1" />
+
+                <Button
+                    android:id="@+id/imageButton2_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="M-2"/>
+
+                <Button
+                    android:id="@+id/imageButton3_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="M-3" />
+
+                <Button
+                    android:id="@+id/imageButton4_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="M-4" />
+
+                <Button
+                    android:id="@+id/imageButton5_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="M-5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6_3y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="M-6" />
+
+                <Button
+                    android:id="@+id/imageButton7_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="M-7" />
+
+                <Button
+                    android:id="@+id/imageButton8_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="M-8" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:textSize="35dp"
+           android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:text="Electrical Engg." />
+        <HorizontalScrollView
+            android:id="@+id/id6_3y"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                 <Button
+                    android:id="@+id/imageButton1_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="E-1" />
+
+                <Button
+                    android:id="@+id/imageButton2_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="E-2"/>
+
+                <Button
+                    android:id="@+id/imageButton3_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="E-3" />
+
+                <Button
+                    android:id="@+id/imageButton4_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="E-4" />
+
+                <Button
+                    android:id="@+id/imageButton5_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="E-5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6_3y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="E-6" />
+
+                <Button
+                    android:id="@+id/imageButton7_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="E-7" />
+
+                <Button
+                    android:id="@+id/imageButton8_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="E-8" />
+            </LinearLayout>
+        </HorizontalScrollView>
+       <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:text="Industrial Management"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+             />
+        
+        <HorizontalScrollView
+            android:id="@+id/id7_3y"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp" >
+"
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageButton1_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IEM-1" />
+
+                <Button
+                    android:id="@+id/imageButton2_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IEM-2"
+                    />
+
+                <Button
+                    android:id="@+id/imageButton3_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IEM-3" />
+
+                <Button
+                    android:id="@+id/imageButton4_3y"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:text="IEM-4" />
+
+                
+                
+            </LinearLayout>
+        </HorizontalScrollView> 
+        
+    </LinearLayout>
+
+ </ScrollView>
+</RelativeLayout>
